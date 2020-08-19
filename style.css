@@ -1,0 +1,44 @@
+:root {
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body {
+    height: 100vh;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo,
+.progress {
+    background-color: var(--dark-blue);
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.fylo {
+    min-height: 12rem;
+    min-width: 20rem;
+    border-top-right-radius: 100px;
+}
+
+.progress {
+    min-height: 9rem;
+    min-width: 35rem;
+}
