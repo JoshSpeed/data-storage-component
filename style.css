@@ -25,6 +25,11 @@ body {
     align-items: center;
 }
 
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+
 .fylo,
 .progress {
     background-color: var(--dark-blue);
