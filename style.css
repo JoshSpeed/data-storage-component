@@ -43,6 +43,26 @@ body {
     border-top-right-radius: 100px;
 }
 
+.logo {
+    margin: 2rem;
+}
+
+.icons {
+    margin: 2rem;
+    width: 10.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-img {
+    background-color: var(--very-dark-blue);
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+
+
 .progress {
     min-height: 9rem;
     min-width: 35rem;
